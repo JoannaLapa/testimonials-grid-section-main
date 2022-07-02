@@ -1,0 +1,25 @@
+@use 'font-sizes' as f;
+@use 'mixins' as m;
+@use 'extends';
+
+*,
+::after,
+::before {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+:root {
+	font-size: f.$fz-basic;
+}
+
+
+
+.attribution { 
+    font-size: 11px; text-align: center;
+
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
