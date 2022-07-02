@@ -1,3 +1,53 @@
+@use 'abstracts/variables' as v;
+
+body{
+    background-color: v.$light-gray;
+}
+
+.article {
+
+    &__container{
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+
+&--moderate-violet,
+&--very-dark-grayish-blue ,
+&--very-dark-blackish-blue{
+    color: v.$light-gray;
+}
+
+&--moderate-violet {
+    background-color: v.$moderate-violet;
+    background-image: url('../img/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position: 89% 0;
+}
+
+&--very-dark-grayish-blue {
+    background-color: v.$very-dark-grayish-blue;
+}
+
+&--white {
+    background-color: v.$white;
+    color: v.$very-dark-grayish-blue;
+}
+
+&--very-dark-blackish-blue {
+    background-color: v.$very-dark-blackish-blue;
+}
+    }
+&__graduate--light-grey,
+&__text--light-greyt {
+    color: v.$light-gray-transparent;
+}
+
+&__graduate--very-dark-blackish-blue,
+&__text--very-dark-blackish-blue
+{
+    color: v.$very-dark-blackish-blue-transparent;
+  
+}
+}
+
 a { 
     color: hsl(228, 45%, 44%); 
 }

@@ -1,4 +1,4 @@
-@use 'abstracts/variables' as a;
+@use 'abstracts/variables' as v;
 
 *,
 ::after,
@@ -9,5 +9,6 @@
 }
 
 :root {
-	font-size: a.$fz-basic;
+	font-size: v.$fz-basic;
+	font-family: v.$barlow-semi-condensed;
 }

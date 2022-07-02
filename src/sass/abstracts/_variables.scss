@@ -2,11 +2,13 @@
 // ### Primary
 $moderate-violet: hsl(263, 55%, 52%);
 $very-dark-grayish-blue: hsl(217, 19%, 35%);
-$very-dark-blackish-blue: hsl(219, 29%, 14%);
-$White: hsl(0, 0%, 100%);
+$very-dark-blackish-blue: rgb(25, 33, 46);
+$very-dark-blackish-blue-transparent: rgb(25, 33, 46, 0.5);
+$white: hsl(0, 0%, 100%);
 
 // ### Neutral
 $light-gray: hsl(0, 0%, 81%);
+$light-gray-transparent: rgba(207, 207, 207, 0.7);
 $light-grayish-blue: hsl(210, 46%, 95%);
 
 // FONT-SIZES
@@ -20,3 +22,6 @@ $fz-basic: 62.5%;
 // $fz-180: 1.8rem;
 // $fz-220: 2.2rem;
 // $fz-260: 2.6rem;
+
+// FONTS
+$barlow-semi-condensed: 'Barlow Semi Condensed', sans-serif;
