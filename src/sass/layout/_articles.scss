@@ -1,7 +1,7 @@
 @use 'abstracts/variables' as v;
 .wrapper {
 	display: grid;
-	gap: 2rem;
+	gap: 2.2rem;
 
 	padding: 7rem 2.5rem;
 }
@@ -9,25 +9,26 @@
 .article {
 	display: flex;
 	flex-direction: column;
-	gap: 1.8rem;
+	gap: 1.55rem;
 
-	padding: 2.5rem 3.2rem;
-
+	padding: 2.6rem 0 3rem 3.15rem;
+// margin-right: 1.4rem;
 	border-radius: 1rem;
 
 	&__box {
 		display: grid;
 		grid-template-columns: 3rem 1fr;
-		grid-template-rows: reapeat(2, 1fr);
+		grid-template-rows: repeat(2, 1fr);
 		gap: 0 1.7rem;
 		justify-content: start;
+        align-items: center;
 	}
 
 	&__img {
 		grid-area: 1/1/3/2;
 
-		width: 3rem;
-		height: 3rem;
+		width: 3.2rem;
+		height: 3.2rem;
 
 		border-radius: 50%;
 		border: 2px solid v.$light-gray-transparent;
@@ -40,4 +41,16 @@
 	&__graduate {
 		grid-area: 2/2/3/3;
 	}
+
+    &__header {
+        padding-right: 3.2rem;
+    }
+
+    &__textt--wide-padding {
+       padding-right: 4.4rem;
+    }
+
+    &__text--narrow-padding {
+        padding-right: 3.2rem;
+     }
 }
