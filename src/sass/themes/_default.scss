@@ -1,7 +1,7 @@
 @use 'abstracts/variables' as v;
 
 body{
-    background-color: v.$light-gray;
+    background-color: v.$light-grayish-blue;
 }
 
 .article {
@@ -36,7 +36,7 @@ body{
 }
     }
 &__graduate--light-grey,
-&__text--light-greyt {
+&__text--light-grey {
     color: v.$light-gray-transparent;
 }
 

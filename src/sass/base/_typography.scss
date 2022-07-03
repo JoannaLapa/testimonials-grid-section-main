@@ -1,7 +1,6 @@
+@use 'abstracts/variables' as v;
 
-.footer {
-	&__wrapper {
-		font-size: 11px;
-		text-align: center;
-	}
+.footer__wrapper {
+	font-size: v.$fz-100;
+	text-align: center;
 }
