@@ -11,11 +11,18 @@
 
 	&__header {
 		font-size: v.$fz-190;
+
+		word-spacing: 1em 3em 2em;
+		letter-spacing: 0.04rem;
+		line-height: 130%;
 	}
 
 	&__text {
 		font-size: v.$fz-130;
+
 		line-height: 130%;
+		word-spacing: 1em 3em 2em;
+		letter-spacing: 0.04rem;
 	}
 }
 
