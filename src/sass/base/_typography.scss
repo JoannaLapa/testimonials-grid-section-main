@@ -1,5 +1,23 @@
 @use 'abstracts/variables' as v;
 
+.article {
+	&__name {
+		font-size: v.$fz-130;
+	}
+
+	&__graduate {
+		font-size: v.$fz-110;
+	}
+
+	&__header {
+		font-size: v.$fz-200;
+	}
+
+	&__text {
+		font-size: v.$fz-130;;
+	}
+}
+
 .footer__wrapper {
 	font-size: v.$fz-100;
 	text-align: center;
