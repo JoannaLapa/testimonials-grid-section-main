@@ -5,13 +5,11 @@ body {
 }
 
 .article {
-	
-
 	&--moderate-violet,
 	&--very-dark-grayish-blue,
-    &--very-dark-blackish-blue {
+	&--very-dark-blackish-blue {
 		color: v.$light-gray;
-        text-shadow: 1px 1px 2px  v.$light-gray-transparent;
+		text-shadow: 1px 1px 2px v.$light-gray-transparent;
 	}
 
 	&--moderate-violet {
@@ -28,7 +26,8 @@ body {
 	&--white {
 		background-color: v.$white;
 		color: v.$very-dark-grayish-blue;
-        text-shadow: 1px 0px 2px v.$very-dark-blackish-blue-transparent;
+
+		text-shadow: 1px 0px 2px v.$very-dark-blackish-blue-transparent;
 	}
 
 	&--very-dark-blackish-blue {
@@ -47,5 +46,5 @@ body {
 }
 
 a {
-	color: hsl(228, 45%, 44%);
+	color: v.$very-dark-grayish-blue;
 }
