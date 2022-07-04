@@ -1,9 +1,16 @@
 @use 'abstracts/variables' as v;
+@use 'abstracts/breakpoints' as b;
 .wrapper {
 	display: grid;
 	gap: 2.2rem;
 
 	padding: 7rem 2.5rem;
+
+	@include b.respond-to('small') {
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		grid-template-areas: 'a a b c' 'd e e c';
+	}
 }
 
 .article {
@@ -12,7 +19,7 @@
 	gap: 1.55rem;
 
 	padding: 2.6rem 0 3rem 3.15rem;
-// margin-right: 1.4rem;
+
 	border-radius: 1rem;
 
 	&__box {
@@ -21,7 +28,7 @@
 		grid-template-rows: repeat(2, 1fr);
 		gap: 0 1.7rem;
 		justify-content: start;
-        align-items: center;
+		align-items: center;
 	}
 
 	&__img {
@@ -42,15 +49,37 @@
 		grid-area: 2/2/3/3;
 	}
 
-    &__header {
-        padding-right: 3.2rem;
-    }
+	&__header {
+		padding-right: 3.2rem;
+	}
 
-    &__textt--wide-padding {
-       padding-right: 4.4rem;
-    }
+	&__textt--wide-padding {
+		padding-right: 4.4rem;
+	}
 
-    &__text--narrow-padding {
-        padding-right: 3.2rem;
-     }
+	&__text--narrow-padding {
+		padding-right: 3.2rem;
+	}
+}
+
+@include b.respond-to('small') {
+	.grid--violet {
+		grid-area: a;
+	}
+
+	.grid--grey {
+		grid-area: b;
+	}
+
+	.grid--white {
+		grid-area: d;
+	}
+
+	.grid--black {
+		grid-area: e;
+	}
+
+	.grid--white-longer {
+		grid-area: c;
+	}
 }
