@@ -6,10 +6,12 @@
 
 	padding: 7rem 2.5rem;
 
-	@include b.respond-to('small') {
+	@include b.respond-to('extra-large') {
 		grid-template-columns: repeat(4, 1fr);
 		grid-template-rows: repeat(2, 1fr);
 		grid-template-areas: 'a a b c' 'd e e c';
+
+		padding: 16.5rem;
 	}
 }
 
@@ -21,6 +23,13 @@
 	padding: 2.6rem 0 3rem 3.15rem;
 
 	border-radius: 1rem;
+
+	@include b.respond-to('extra-extra-large') {
+gap: 1.51rem;
+
+padding: 2.4rem 0 3.18rem 3.2rem;
+padding-left: 3.2rem;
+	}
 
 	&__box {
 		display: grid;
@@ -51,9 +60,13 @@
 
 	&__header {
 		padding-right: 3.2rem;
+
+		@include b.respond-to('extra-extra-large') {
+			padding-right: 2.8rem;
+	}
 	}
 
-	&__textt--wide-padding {
+	&__text--wide-padding {
 		padding-right: 4.4rem;
 	}
 
@@ -62,7 +75,7 @@
 	}
 }
 
-@include b.respond-to('small') {
+@include b.respond-to('extra-large') {
 	.grid--violet {
 		grid-area: a;
 	}

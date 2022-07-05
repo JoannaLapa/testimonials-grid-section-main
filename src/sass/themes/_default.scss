@@ -1,4 +1,5 @@
 @use 'abstracts/variables' as v;
+@use 'abstracts/breakpoints' as b;
 
 body {
 	background-color: v.$light-grayish-blue;
@@ -17,6 +18,10 @@ body {
 		background-image: url('../img/bg-pattern-quotation.svg');
 		background-repeat: no-repeat;
 		background-position: 89% 0;
+
+		@include b.respond-to('extra-extra-large') {
+			background-position: 80% 0;
+		}
 	}
 
 	&--very-dark-grayish-blue {
