@@ -20,7 +20,7 @@ body {
 		background-position: 89% 0;
 
 		@include b.respond-to('extra-extra-large') {
-			background-position: 80% 0;
+			background-position: 81.5% 0;
 		}
 	}
 
@@ -31,6 +31,7 @@ body {
 	&--white {
 		background-color: v.$white;
 		color: v.$very-dark-grayish-blue;
+		box-shadow: 2.5rem 3.75rem 3rem -3rem v.$very-dark-grayish-blue-transparent;
 
 		text-shadow: 1px 0px 2px v.$very-dark-blackish-blue-transparent;
 	}
