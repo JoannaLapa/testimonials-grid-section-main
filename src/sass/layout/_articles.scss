@@ -125,6 +125,10 @@
 
 	&__text--wide-padding {
 		padding-right: 4.4rem;
+
+		@include b.respond-to('extra-extra-large') {
+			padding-right: 2.8rem;
+		}
 	}
 
 	&__text--narrow-padding {
