@@ -77,10 +77,9 @@
 	border-radius: 1rem;
 
 	@include b.respond-to('extra-extra-large') {
-gap: 1.51rem;
+		gap: 1.55rem;
 
-padding: 2.4rem 0 3.18rem 3.2rem;
-padding-left: 3.2rem;
+		padding: 2.4rem 0 3.18rem 3.2rem;
 	}
 
 	&__box {
