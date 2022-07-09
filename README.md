@@ -31,8 +31,8 @@ Users should be able to:
 ![](./screenshot-desktop.png)
 ### Links
 
-- [Solution URL:](https://github.com/JoannaLapa/testimonials---grid)
-- [Live Site URL:](https://joannalapa.github.io/testimonials---grid/)
+- [Solution URL:](https://github.com/JoannaLapa/testimonials-grid-section-main)
+- [Live Site URL:](https://joannalapa.github.io/testimonials-grid-section-main/)
 
 ## My process
 
