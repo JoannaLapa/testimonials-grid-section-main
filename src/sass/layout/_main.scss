@@ -8,6 +8,13 @@
 	}
 }
 
+.heading__box {
+	position: absolute;
+	top: 4.5rem;
+	left: 50%;
+	transform: translateX(-50%);
+	opacity: 0;
+}
 .article {
 	display: flex;
 	flex-direction: column;
