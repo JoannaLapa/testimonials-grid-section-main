@@ -133,10 +133,12 @@
 
 	&__text--narrow-padding {
 		padding-right: 3.2rem;
+
+		@include b.respond-to('extra-extra-large') {
+			padding-right: 2.9rem;
+		}
 	}
 
-	@include b.respond-to('extra-extra-large') {
-		padding-right: 2.9rem;
-	}
+	
 }
 
