@@ -117,6 +117,12 @@
 	}
 	}
 
+	@include b.respond-to(extra-extra-large) {
+		&___header--wide-padding {
+			padding-right: 3.5rem;
+		}
+	}
+
 	&__text--wide-padding {
 		padding-right: 4.4rem;
 	}
