@@ -140,24 +140,3 @@
 	}
 }
 
-@include b.respond-to('extra-large') {
-	.grid--violet {
-		grid-area: a;
-	}
-
-	.grid--grey {
-		grid-area: b;
-	}
-
-	.grid--white {
-		grid-area: d;
-	}
-
-	.grid--black {
-		grid-area: e;
-	}
-
-	.grid--white-longer {
-		grid-area: c;
-	}
-}
