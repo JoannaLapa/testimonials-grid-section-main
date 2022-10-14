@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot-mobile.png)
-![](./screenshot-desktop.png)
+![](./screenshots/screenshot-mobile.png)
+![](./screenshots/screenshot-desktop.png)
 ### Links
 
 - [Solution URL:](https://github.com/JoannaLapa/testimonials-grid-section-main)
